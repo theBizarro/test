@@ -11,4 +11,8 @@ if hungry == "yes":
         print("eat and go outside")
 
 else:
-    print("go and play outside")
+    exercise = input("Have you exercised yet :")
+    if exercise == "yes":
+        print("you can go home and rest")
+    else:
+        print("go and exercise outside")
